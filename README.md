@@ -1,4 +1,4 @@
-# BrainDecoding
+# MindControl
 
 
 ### Environment setup
