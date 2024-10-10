@@ -1,23 +1,23 @@
 # MindControl
 
 
-### Environment setup
+## Preparation
+### Data
+1. Agree to the Natural Scenes Dataset's [Terms and Conditions](https://cvnlab.slite.page/p/IB6BSeW_7o/Terms-and-Conditions) and fill out the [NSD Data Access form](https://forms.gle/xue2bCdM9LaFNMeb7)
+2. Create a conda environment and install the packages necessary to run the code.
 ```
-# install anaconda
+# install anaconda (optional)
 wget "https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh"
 bash ./Anaconda3-2024.06-1-Linux-x86_64.sh
-
 eval "$(/home/wsjeong/anaconda3/bin/conda shell.bash hook)"
 source ~/.bashrc
 conda init
 
+# create a conda environment and install the packages
 conda create -n mindcontrol python=3.10.8 -y
 conda activate mindcontrol
 pip install -r requirements.txt
 ```
-## Preparation
-### Data
-
 ## Training
 ### 
 
