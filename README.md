@@ -15,5 +15,10 @@ conda create -n mindcontrol python=3.10.8 -y
 conda activate mindcontrol
 pip install -r requirements.txt
 ```
+## Preparation
+### Data
 
-##
+## Training
+### 
+
+## Evaluation (w/ reconstruction)
