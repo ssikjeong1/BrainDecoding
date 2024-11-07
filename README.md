@@ -17,6 +17,7 @@ conda init
 conda create -n mindcontrol python=3.10.8 -y
 conda activate mindcontrol
 pip install -r requirements.txt
+(to generate this files: pip list --format=freeze > requirements.txt)
 ```
 ## Training
 ### 
